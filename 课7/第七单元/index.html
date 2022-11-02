@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>第七单元</title>
+</head>
+<body>
+
+  <form action="" method="post">
+    username:<input type="text" name="username" placeholder="请输入用户名">
+    <br>
+    <br>
+    mail:<input type="text" name="email" placeholder="请输入email">
+    <br>
+    <br>
+    password:<input type="password" name="pw" placeholder="password">
+    <br>
+    <br>
+    confirm password:<input type="password" name="cpw" placeholder="confirm password">
+    <br>
+    <br>
+    单选:
+    <input type="radio" name="gender" value="male" checked>选项1
+    <input type="radio" name="gender" value="male" checked>选项2
+    <br>
+    <br>
+    多选:
+    <input type="checkbox" name="intterst1" value="1" checked>选项1
+    <input type="checkbox" name="intterst2" value="2" checked>选项2
+    <input type="checkbox" name="intterst3" value="3" checked>选项3
+    <input type="checkbox" name="intterst4" value="4" checked>选项4
+    <br>
+    <br>
+    按钮(无CSS):
+    <input type="button" name="close" value="关闭窗口" onclick="window.close()">
+    <br>
+    <br>
+
+<!--    提交信息到/form_action.asp-->
+
+    提交:
+    <input type="submit" name="submit" value="提交">
+    <br>
+    <br>
+
+    重置:
+    <input type="reset" name="clean" value="重置">
+    <br>
+    <br>
+    数值框:
+    <input type="number" name="num" value="5" min="5" max="10" step="1">
+
+<!--    注意:使用上方命令,type,name,value,min,max,step的参数不得掉乱顺序-->
+    <br>
+    <br>
+    time(DatePicker):<input type="datetime-local" name="date">
+<!--    time DatePicker input内的type参数有多种，分别为:date,month,week,time,datetime-local 5种.date选择日/月/年;month选择月/年;week选择周/年;time选择小时/分钟;datetime-local选择小时/分钟/日/月/年.-->
+    <br>
+    <br>
+    下拉菜单:
+  <select name="select">
+
+    <option value="beijing" selected>beijing</option>
+    <option value="shanghai">shanghai</option>
+    <option value="other">other</option>
+    </select>
+<!--    主要:其中 selected 是默认值-->
+    <br>
+    <br>
+    文本域:
+    留言:<br>
+    <textarea name="message" cols="80" rows="10" readonly>dsada</textarea>
+<!--    注意：在"<textarea> 要显示的文字 </textarea>"-->
+
+
+
+  </form>
+  <br>
+  <input type="image" name="图像域效果" src="组%202.png">
+  <br>
+  <br>
+
+
+</body>
+</html>

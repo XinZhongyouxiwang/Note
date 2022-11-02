@@ -1,0 +1,14 @@
+/*CSS注释
+格式：/* 内容 */
+p{
+  color: black;
+}
+#tab{
+  color: yellow;
+}
+.tab{
+  color: yellow;
+}
+.tab,.tab2,.tab3{
+  color: yellow;
+}
